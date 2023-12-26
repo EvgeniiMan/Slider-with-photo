@@ -33,7 +33,6 @@ body {
 }
 
 
-
 h1 {
     color: #E3B873;
     font-family: 'Yeseva One', serif;
@@ -47,6 +46,18 @@ h1 {
     width: 253px;
     margin-bottom: 34px;
 
+    position: relative;
+}
+
+h1::after {
+    content: url("../imgs/line.svg");
+    width: 92px;
+    height: 2px;
+    position: absolute;
+    bottom: 45px;
+    right: 0;
+    /* background-color: #E3B873;
+    border-bottom: 3px solid #E3B873; */
 }
 
 
